@@ -1,0 +1,10 @@
+.game-control{position:fixed;top:94px;left:50%;transform:translateX(-50%);z-index:1200;display:flex;align-items:center;gap:12px;max-width:calc(100vw - 24px);padding:9px 12px;border:1px solid #f0b90b77;border-radius:14px;background:#101819f2;color:#ffdf87;font:12px/1.4 system-ui;box-shadow:0 8px 30px #0005;backdrop-filter:blur(14px)}
+.game-control[hidden]{display:none}.game-control span{min-width:0}.game-control button,.game-control a{flex-shrink:0;border:0;border-radius:8px;padding:8px 10px;background:#f0b90b;color:#171a20;font-weight:700;text-decoration:none;cursor:pointer}.game-control button:disabled{opacity:.5;cursor:wait}.game-control a[hidden]{display:none}
+.agent-watching .interior-touch,.agent-watching .interior-actions,.agent-watching #city-touch{visibility:hidden}.agent-watching .journey-hud-actions{visibility:hidden}
+@media(max-width:600px){.game-control{top:74px;width:max-content;gap:7px;padding:7px;flex-wrap:wrap}.game-control span{flex:1;font-size:11px}.game-control button,.game-control a{padding:7px;font-size:11px}}
+
+.interior-task{position:absolute;top:150px;left:50%;transform:translateX(-50%);color:#fff0c0;background:#101819d9;padding:8px 14px;border-radius:12px;max-width:90%;font-size:13px;text-align:center;pointer-events:none}
+
+.agent-score-rule{margin:18px auto;padding:10px 16px;color:#c9b884;font:12px/1.6 system-ui;max-width:1100px}.agent-score-rule [lang="en"]{display:none}html[lang="en"] .agent-score-rule [lang="zh-CN"]{display:none}html[lang="en"] .agent-score-rule [lang="en"]{display:inline}
+
+.puzzle-dialog.agent-puzzle{position:fixed;inset:160px 16px auto auto;margin:0;width:min(430px,calc(100vw - 32px));max-height:calc(100vh - 180px);z-index:1100;box-shadow:0 12px 50px #000a}.agent-puzzle button:disabled{cursor:default}

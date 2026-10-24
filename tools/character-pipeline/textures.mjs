@@ -1,0 +1,13 @@
+import { NodeIO } from '@gltf-transform/core';
+import { textureCompress } from '@gltf-transform/functions';
+import sharp from 'sharp';
+import { resolve } from 'node:path';
+const [input, output, sizeArg = '2048'] = process.argv.slice(2);
+if (!input || !output || resolve(input) === resolve(output)) throw new Error('Use distinct GLB paths');
+const size = Number(sizeArg);
+if (![512,1024,2048,4096].includes(size)) throw new Error('Invalid texture size');
+const io = new NodeIO();
+const doc = await io.read(input);
+await doc.transform(textureCompress({ encoder: sharp, targetFormat:'jpeg', resize:[size,size], quality:94, chromaSubsampling:'4:4:4' }));
+await io.write(output, doc);
+console.log(JSON.stringify({ output, textures:doc.getRoot().listTextures().map(t => ({size:t.getSize(),bytes:t.getImage().length})) }));

@@ -1,0 +1,12 @@
+ID FUN assets / provenance
+
+Character reference images: generated through the project's paid Higgsfield developer API (Grok Imagine 2.0). Afeng uses the owner-supplied reference photo. Other public figures are unofficial stylized entertainment depictions, not endorsements.
+Character/architecture geometry: PiAPI Trellis 2; character skinning: PiAPI Skin Tokens; local topology validation, motion retargeting, mesh refinement and texture compression. Animation source is the pre-existing licensed fighter-male/fighter-female asset library retained in this project. Existing asset licenses remain in public/models.
+Outdoor environment: CC0 / Poly Haven. Powered by Poly Haven. See models/ARENA-ASSETS-LICENSE.txt.
+Babylon.js renderer: installed package license. Meshoptimizer decoder: vendor/MESHOPT-LICENSE.txt (MIT).
+Music: original synthesized browser loop, no external music recording.
+City merchant and observatory pavilions: original Higgsfield API references, reconstructed through PiAPI Trellis 2, optimized and instanced locally.
+Reference game videos informed movement/composition only; no reference-game code, character meshes or recordings are bundled.
+Animation and base fallback characters: Quaternius Universal Base Characters / Universal Animation Library (CC0), https://quaternius.com . Retargeted eleven clips; source binaries retained for runtime generation.
+Lobby v15 key art: generated through the project's paid Higgsfield API, Grok Imagine Image 2.0, 2026-10-23. Decorative lobby illustration, not an in-game screenshot. Optimized WebP, 2304 x 1296.
+Identity Playground v16: desktop and mobile visor portraits generated through the paid Higgsfield API, Grok Imagine Image 2.0, using the existing ID FUN logo as reference, 2026-10-23. Dark-background cast lineup uses the existing CZ, He Yi, Afeng and Musk game portraits as references. Decorative key art, not gameplay screenshots. API quotes: $0.09 desktop, $0.09 mobile, $0.12 cast lineup; total $0.30. Reference records and prompts retained offline; no API credential is included in public assets.

@@ -1,0 +1,14 @@
+CC0 1.0 / Poly Haven
+https://polyhaven.com/license
+https://polyhaven.com/a/gothic_statue
+https://polyhaven.com/a/rock_face_01
+https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky
+Models packed as GLB without changing geometry or textures.
+
+Additional environment assets, CC0 1.0 / Poly Haven (https://polyhaven.com/license):
+https://polyhaven.com/a/jacaranda_tree — simplified geometry and compressed textures
+https://polyhaven.com/a/grass_medium_01 — selected small tuft meshes instanced in-game
+https://polyhaven.com/a/grass_ground
+https://polyhaven.com/a/forest_ground_04
+https://polyhaven.com/a/bark_brown_02
+Downloaded through the Poly Haven API with origin, length and MD5 checks. Powered by Poly Haven.

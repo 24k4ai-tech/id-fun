@@ -1,0 +1,23 @@
+{
+  "name": "id-fun",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env server/index.mjs",
+    "start": "node --env-file-if-exists=.env server/index.mjs",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.8",
+    "babylonjs": "9.31.0",
+    "babylonjs-loaders": "9.31.0",
+    "sharp": "0.35.5",
+    "viem": "2.57.2"
+  },
+  "license": "MIT",
+  "description": "ID FUN game, Agent integration and player reward client. Private treasury implementation excluded."
+}
